@@ -1,38 +1,97 @@
 {
-    "products": [
+  "coneBases": {
+    "title": "Cone Bases – Powder Coated",
+    "description": "To Suit Table Tops",
+    "standardHeight": 695,
+    "pricing": [
       {
-        "name": "Brooke Disc Base",
-        "category": "Disc Bases",
-        "sizes": [
-          {
-            "suitableFor": "400 – 500mm dia",
-            "dimensions": "300mm dia",
-            "shaftSize": "50mm dia",
-            "height": 695,
-            "finish": "Powder Coat",
-            "price": 175,
-            "code": "KMTDBB30695-1"
-          },
-          {
-            "suitableFor": "400 – 600mm dia",
-            "dimensions": "350mm dia",
-            "shaftSize": "50mm dia",
-            "height": 695,
-            "finish": "Powder Coat",
-            "price": 180,
-            "code": "KMTDBB35695-1"
-          },
-          {
-            "suitableFor": "500 – 700mm dia",
-            "dimensions": "400mm dia",
-            "shaftSize": "50mm dia",
-            "height": 695,
-            "finish": "Powder Coat",
-            "price": 200,
-            "code": "KMTDBB40695-1"
-          }
-          
-        ]
+        "topSize": "600mm dia",
+        "coneBase": "350mm dia",
+        "coneTop": "200mm dia",
+        "price": 490,
+        "code": "KMCONE350-1"
+      },
+      {
+        "topSize": "900mm dia",
+        "coneBase": "400mm dia",
+        "coneTop": "200mm dia",
+        "price": 500,
+        "code": "KMCONE400-1"
+      },
+      {
+        "topSize": "1000mm dia",
+        "coneBase": "500mm dia",
+        "coneTop": "250mm dia",
+        "price": 560,
+        "code": "KMCONE500-1"
+      },
+      {
+        "topSize": "1100mm dia",
+        "coneBase": "500mm dia",
+        "coneTop": "250mm dia",
+        "price": 630,
+        "code": "KMCONE500-1"
+      },
+      {
+        "topSize": "1200mm dia",
+        "coneBase": "550mm dia",
+        "coneTop": "300mm dia",
+        "price": 720,
+        "code": "KMCONE550-1"
+      },
+      {
+        "topSize": "1300mm dia",
+        "coneBase": "550mm dia",
+        "coneTop": "300mm dia",
+        "price": 725,
+        "code": "KMCONE550-1"
+      },
+      {
+        "topSize": "1400mm dia",
+        "coneBase": "600mm dia",
+        "coneTop": "350mm dia",
+        "price": 800,
+        "code": "KMCONE600-1"
+      },
+      {
+        "topSize": "1500mm dia",
+        "coneBase": "600mm dia",
+        "coneTop": "350mm dia",
+        "price": 800,
+        "code": "KMCONE600-1"
+      },
+      {
+        "topSize": "1600mm dia",
+        "coneBase": "700mm dia",
+        "coneTop": "450mm dia",
+        "price": 810,
+        "code": "KMCONE700-1"
+      },
+      {
+        "topSize": "1800mm dia",
+        "coneBase": "800mm dia",
+        "coneTop": "550mm dia",
+        "price": 820,
+        "code": "KMCONE800-1"
+      },
+      {
+        "topSize": "2000mm dia",
+        "coneBase": "900mm dia",
+        "coneTop": "650mm dia",
+        "price": 850,
+        "code": "KMCONE900-1"
+      },
+      {
+        "topSize": "2500mm dia",
+        "coneBase": "1000mm dia",
+        "coneTop": "700mm dia",
+        "price": 900,
+        "code": "KMCONE1000-1"
       }
+    ],
+    "notes": [
+      "Prices quoted are for standard height: 695mm",
+      "Bar height 900 – 1050H: add $90"
     ]
   }
+}

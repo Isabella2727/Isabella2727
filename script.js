@@ -5,6 +5,7 @@ $.getJSON('products.json', function(data) {
 });
 
 function search() {
+    console.log("Search function called");
     const query = $('#searchInput').val().toLowerCase();
     const results = products.flatMap(product => 
         product.sizes.filter(size => 
