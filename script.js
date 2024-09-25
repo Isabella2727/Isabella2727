@@ -1,7 +1,7 @@
 let products;
 
 $.getJSON('products.json', function(data) {
-    products = data.products;
+    console.log("Loaded data:", data);
 });
 
 function search() {
