@@ -1,21 +1,36 @@
-let products;
+$(document).ready(function() {
+    let products = [];
+    let dataLoaded = false;
 
-$.getJSON('products.json', function(data) {
-    console.log("Loaded data:", data);
+    $.getJSON('products.json', function(data) {
+        console.log("Loaded data:", data);
+        products = data;
+        dataLoaded = true;
+    }).fail(function(jqXHR, textStatus, errorThrown) {
+        console.error("Error loading products:", textStatus, errorThrown);
+    });
+
+    window.search = function() {
+        if (!dataLoaded) {
+            console.log("Data not yet loaded. Please try again.");
+            return;
+        }
+        
+        console.log("Search function called");
+        const query = $('#searchInput').val().toLowerCase();
+        const results = products.flatMap(product =>
+            product.sizes.filter(size =>
+                size.suitableFor.toLowerCase().includes(query) ||
+                size.dimensions.toLowerCase().includes(query)
+            )
+        );
+
+        displayResults(results);
+    }
+
+    // Rest of your code...
 });
 
-function search() {
-    console.log("Search function called");
-    const query = $('#searchInput').val().toLowerCase();
-    const results = products.flatMap(product => 
-        product.sizes.filter(size => 
-            size.suitableFor.toLowerCase().includes(query) ||
-            size.dimensions.toLowerCase().includes(query)
-        )
-    );
-
-    displayResults(results);
-}
 
 function displayResults(results) {
     const resultsDiv = $('#results');
