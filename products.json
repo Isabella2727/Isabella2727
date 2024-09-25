@@ -1,0 +1,38 @@
+{
+    "products": [
+      {
+        "name": "Brooke Disc Base",
+        "category": "Disc Bases",
+        "sizes": [
+          {
+            "suitableFor": "400 – 500mm dia",
+            "dimensions": "300mm dia",
+            "shaftSize": "50mm dia",
+            "height": 695,
+            "finish": "Powder Coat",
+            "price": 175,
+            "code": "KMTDBB30695-1"
+          },
+          {
+            "suitableFor": "400 – 600mm dia",
+            "dimensions": "350mm dia",
+            "shaftSize": "50mm dia",
+            "height": 695,
+            "finish": "Powder Coat",
+            "price": 180,
+            "code": "KMTDBB35695-1"
+          },
+          {
+            "suitableFor": "500 – 700mm dia",
+            "dimensions": "400mm dia",
+            "shaftSize": "50mm dia",
+            "height": 695,
+            "finish": "Powder Coat",
+            "price": 200,
+            "code": "KMTDBB40695-1"
+          }
+          
+        ]
+      }
+    ]
+  }
